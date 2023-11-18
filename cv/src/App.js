@@ -1,9 +1,15 @@
 
 import './App.css';
-import Greet from './components/greet';
-import Welcome from './components/welcome';
-import Message from './components/message';
-
+import Greet from './components/Greet';
+import Welcome from './components/Welcome';
+import Message from './components/Message';
+import Counter from './components/Counter';
+import FunctionClick from './components/FunctionClick';
+import ClassClick from './components/ClassClick';
+import EventBind from './components/EventBind';
+import ParentComp from './components/ParentComp';
+import UserGreeting from './components/UserGreeting';
+import NameList from './components/NameList';
 function App() {
   return (
     <div className="App">
@@ -17,7 +23,14 @@ function App() {
       <button> this is </button>
       </Greet>
       <Welcome name = "john" size ="meduim"/> */}
-      <Message></Message>
+      {/* <Message></Message> */}
+      {/* <Counter></Counter> */}
+      {/* <FunctionClick></FunctionClick> */}
+      {/* <ClassClick></ClassClick> */}
+      {/* <EventBind></EventBind> */}
+      {/* <ParentComp></ParentComp> */}
+      {/* <UserGreeting></UserGreeting> */}
+      <NameList></NameList>
     </div>
   );
 }
