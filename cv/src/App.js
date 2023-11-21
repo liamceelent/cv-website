@@ -15,6 +15,10 @@ import InLine from './components/InLine';
 import './appStyles.css';
 import styles from './appStyles.module.css';
 import Form from './components/Form';
+import LifeCycleA from './components/LifeCycleA';
+import FragementDemo from './components/FragementDemo';
+import Table from './components/Table';
+import PureComp from './components/PureComp';
 
 function App() {
   return (
@@ -40,7 +44,11 @@ function App() {
       {/* <InLine></InLine> */}
       {/* <h1 className='error'> error</h1>
       <h1 className={styles.success}> success</h1> */}
-      <Form></Form>
+      {/* <Form></Form> */}
+      {/* <LifeCycleA> h</LifeCycleA> */}
+      {/* <FragementDemo></FragementDemo> */}
+      {/* <Table></Table> */}
+      <PureComp></PureComp>
     </div>
   );
 }
