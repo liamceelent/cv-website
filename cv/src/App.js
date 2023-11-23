@@ -19,6 +19,8 @@ import LifeCycleA from './components/LifeCycleA';
 import FragementDemo from './components/FragementDemo';
 import Table from './components/Table';
 import PureComp from './components/PureComp';
+import RefsDemo from './components/RefsDemo';
+import PortalDemo from './components/PortalDemo';
 
 function App() {
   return (
@@ -48,7 +50,9 @@ function App() {
       {/* <LifeCycleA> h</LifeCycleA> */}
       {/* <FragementDemo></FragementDemo> */}
       {/* <Table></Table> */}
-      <PureComp></PureComp>
+      {/* <PureComp></PureComp> */}
+      {/* <RefsDemo></RefsDemo> */}
+      <PortalDemo></PortalDemo>
     </div>
   );
 }
