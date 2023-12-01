@@ -1,15 +1,18 @@
 import React from "react";
-import { Nav, NavLink, NavMenu } from "./NavBarElements";
- 
+import "./comp.css"
+import { NavLink as Link, NavLink } from "react-router-dom";
+
 const NavBar = () => {
+
+    
     return (
         <>
-            <Nav>
-                <NavMenu>
-                    <NavLink to="/home" activeStyle>
+            <nav>
+                <div>
+                    <NavLink to="/home">
                         Home
                     </NavLink>
-                    <NavLink to="/aboutme" activeStyle>
+                    <NavLink to="/aboutme">
                         About me
                     </NavLink>
                     <NavLink to="/PreviousProjects" activeStyle>
@@ -18,8 +21,8 @@ const NavBar = () => {
                     <NavLink to="/sign-up" activeStyle>
                         Sign Up
                     </NavLink>
-                </NavMenu>
-            </Nav>
+                </div>
+            </nav>
         </>
     );
 };

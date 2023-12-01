@@ -5,9 +5,9 @@ import {
   Route,
 } from "react-router-dom";
 
-import Home from "./pages/Home";
-import AboutMe from "./pages/AboutMe";
-import PreviousProjects from "./pages/PreviousProjects";
+import Home from "./components/Home";
+import AboutMe from "./components/AboutMe";
+import PreviousProjects from "./components/PreviousProjects";
 import Navbar from "./components/NavBar";
 import "./App.css"
 
@@ -15,7 +15,7 @@ function App() {
   return (
     <div>
       <Router>
-          <Navbar className = "error"/>
+          <Navbar/>
           <Routes>
               <Route exact path="/" element={<Home />} />
               <Route path="/about" element={<AboutMe />} />
