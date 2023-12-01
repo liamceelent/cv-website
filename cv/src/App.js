@@ -9,13 +9,13 @@ import Home from "./pages/Home";
 import AboutMe from "./pages/AboutMe";
 import PreviousProjects from "./pages/PreviousProjects";
 import Navbar from "./components/NavBar";
-import navcss from "./style/Nav.css"
+import "./App.css"
 
 function App() {
   return (
     <div>
       <Router>
-          <Navbar/>
+          <Navbar className = "error"/>
           <Routes>
               <Route exact path="/" element={<Home />} />
               <Route path="/about" element={<AboutMe />} />
