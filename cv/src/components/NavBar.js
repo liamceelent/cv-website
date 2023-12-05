@@ -19,7 +19,7 @@ const NavBar = () => {
                         Previous Projects
                     </NavLink>
                     <NavLink to="/sign-up" activeStyle>
-                        Sign Up
+                        Sign Ups
                     </NavLink>
                 </div>
             </nav>
