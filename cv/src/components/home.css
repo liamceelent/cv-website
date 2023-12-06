@@ -1,0 +1,26 @@
+:root{
+  --clr-primary: #17252a;
+  --clr-neutral: #2b7a78;
+  --clr-neutral-100: #3aafa9;
+  --clr-neutral-200: #def2f1;
+  --clr-neutral-200: #feffff;
+
+  --font-family: 'Squada One', cursive;
+}
+
+
+.body {
+  background-color: var(--clr-neutral);
+  height:95vh;
+  padding-top: 30vh;
+}
+
+.text {
+  width: 30%;
+  border: 3px solid var(--clr-neutral-100);
+  padding: 100px;
+  text-align: center;
+  margin: auto;
+  color: var(--clr-neutral-100);
+  font-size: 5vh;
+}

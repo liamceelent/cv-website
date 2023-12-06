@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 class PreviousProjects extends Component {
   render() {
     return (
-      <div>PreviousProjects</div>
+      <div>Previous Projects</div>
     )
   }
 }
