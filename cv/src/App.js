@@ -9,6 +9,7 @@ import Home from "./components/Home";
 import AboutMe from "./components/AboutMe";
 import PreviousProjects from "./components/PreviousProjects";
 import Navbar from "./components/NavBar";
+import Footer from "./components/footerdiv";
 import "./App.css"
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
               <Route path="/PreviousProjects" element={<PreviousProjects />} />
           </Routes>
       </Router>
+      <Footer></Footer>
     </div>
   );
 }
