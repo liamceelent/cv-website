@@ -1,13 +1,12 @@
 :root{
-    --clr-primary: #17252a;
-    --clr-neutral: #2b7a78;
-    --clr-neutral-100: #3aafa9;
-    --clr-neutral-200: #def2f1;
-    --clr-neutral-200: #feffff;
-  
-    --font-family: 'Squada One', cursive;
-  }
-  
+  --clr-primary: #17252a;
+  --clr-neutral: #2b7a78;
+  --clr-neutral2: #3aafa9;
+  --clr-neutral3: #def2f1;
+  --clr-neutral4: #feffff;
+
+  --font-family: 'Squada One', cursive;
+}
   
 .footer {
     background-color: var(--clr-primary);
@@ -17,6 +16,6 @@
     width: 30%;
     text-align: center;
     margin: auto;
-    color: var(--clr-neutral-100);
+    color: var(--clr-neutral2);
     font-size: 2vh;
 }

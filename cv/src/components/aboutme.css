@@ -1,0 +1,15 @@
+:root{
+    --clr-primary: #17252a;
+    --clr-neutral: #2b7a78;
+    --clr-neutral2: #3aafa9;
+    --clr-neutral3: #def2f1;
+    --clr-neutral4: #feffff;
+  
+    --font-family: 'Squada One', cursive;
+}
+  
+  
+.abouttext {
+    background-color: var(--clr-neutral);
+    height: 100vh;
+}
