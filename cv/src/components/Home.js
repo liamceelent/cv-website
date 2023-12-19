@@ -1,11 +1,20 @@
 import React, { Component } from 'react'
 import './home.css'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 class Home extends Component {
+
+  componentDidMount() {
+    AOS.init({duration: 1200});
+  }
+
   render() {
+
     return (
       <div className='body'>
         <div className='text'>
-          <div className='home_img'></div>
+          <div className='home_img' data-aos="fade-right"></div>
         </div>
 
         <div className='title'>

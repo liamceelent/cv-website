@@ -5,7 +5,7 @@
     --clrneutral3: #def2f1;
     --clrneutral4: #feffff;
   
-    --font-family: 'Squada One', cursive;
+    --font-family: roboto;
   }
 
 .about-container{
@@ -22,4 +22,56 @@
 
 .opening-state{
     width:100;
+}
+
+.about-photo {
+    margin: 5%;
+    width:140%;
+    height:500px;
+    background-image: url("./imgages/about.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.opening-state{
+    display: flex; 
+    flex-direction:row;
+}
+
+.about-title{
+    text-align: center;
+    font-size: 40px;
+    font-family: roboto slab;
+}
+
+.fishing{
+    display: flex; 
+    flex-direction:row;
+}
+
+.fishing-photo{
+    margin: 5%;
+    width:20%;
+    height:250px;
+    background-image: url("./imgages/fishing.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.fishing-text{
+    width:50%
+}
+
+.volleyball{
+    display: flex; 
+    flex-direction:row;
+}
+
+.volleyball-photo{
+    margin: 5%;
+    width:140%;
+    height:500px;
+    background-image: url("./imgages/volleyball.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
 }
