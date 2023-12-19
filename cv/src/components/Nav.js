@@ -2,6 +2,7 @@ import React from 'react'
 import "./nav.css"
 import { useState } from 'react';
 import {NavLink } from "react-router-dom";
+
 const Nav = () => {
 
     const [navOpen, setNavOpen] = useState(false);
@@ -10,7 +11,6 @@ const Nav = () => {
     <div className='nav'> 
         <div className='nav-container'>
             <div className='navbar'>
-                <div className='logo'>liam</div>
                 <div className='menu-toggle' onClick={()=> setNavOpen(!navOpen)}>
                     <div className={navOpen ? "hamBox hamBoxOpen" : "hamBox"}>
                         <span className={navOpen? "lineTop spin" : "lineTop"}></span>
@@ -18,7 +18,19 @@ const Nav = () => {
                     </div>
                 </div>
             </div>
-            <div className='nav-overlay' style={{top: navOpen ? "0" : "-100%", transitionDelay: navOpen ? "0s" : "0s"}}></div>
+            <div className='nav-overlay' style={{top: navOpen ? "0" : "-100%", transitionDelay: navOpen ? "0s" : "0s"}}>
+                <div className='link-container'>
+                    <NavLink to="/home" className='test'>
+                        Home
+                    </NavLink>
+                    <NavLink to="/aboutme" className='navitem'>
+                        About me
+                    </NavLink>
+                    <NavLink to="/Projects" className='navitem'>
+                        Projects
+                    </NavLink>
+                </div>
+            </div>
         </div>
     </div>
     )

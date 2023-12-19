@@ -8,7 +8,6 @@ import {
 import Home from "./components/Home";
 import AboutMe from "./components/AboutMe";
 import PreviousProjects from "./components/PreviousProjects";
-import Navbar from "./components/NavBar";
 import Footer from "./components/footerdiv";
 import "./App.css"
 import Nav from "./components/Nav";
