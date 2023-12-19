@@ -11,6 +11,7 @@ import PreviousProjects from "./components/PreviousProjects";
 import Footer from "./components/footerdiv";
 import "./App.css"
 import Nav from "./components/Nav";
+import ContactMe from "./components/contactMe";
 
 function App() {
   return (
@@ -20,7 +21,8 @@ function App() {
           <Routes>
               <Route exact path="/Home" element={<Home />} />
               <Route path="/AboutMe" element={<AboutMe />} />
-              <Route path="/PreviousProjects" element={<PreviousProjects />} />
+              <Route path="/Projects" element={<PreviousProjects />} />
+              <Route path="/Contact" element={<ContactMe/>} />
           </Routes>
       </Router>
       <Footer></Footer>

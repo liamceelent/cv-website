@@ -1,13 +1,12 @@
 :root{
-  --clr-primary: #17252a;
-  --clr-neutral: #2b7a78;
-  --clr-neutral2: #3aafa9;
-  --clr-neutral3: #def2f1;
-  --clr-neutral4: #feffff;
+  --clrprimary: #17252a;
+  --clrneutral: #2b7a78;
+  --clrneutral2: #3aafa9;
+  --clrneutral3: #def2f1;
+  --clrneutral4: #feffff;
 
   --font-family: 'Squada One', cursive;
 }
-  
 .footer {
     background-color: var(--clr-primary);
   }

@@ -20,14 +20,17 @@ const Nav = () => {
             </div>
             <div className='nav-overlay' style={{top: navOpen ? "0" : "-100%", transitionDelay: navOpen ? "0s" : "0s"}}>
                 <div className='link-container'>
-                    <NavLink to="/home" className='test'>
+                    <NavLink to="/home" className='navitem'>
                         Home
                     </NavLink>
                     <NavLink to="/aboutme" className='navitem'>
                         About me
                     </NavLink>
-                    <NavLink to="/Projects" className='navitem'>
+                    <NavLink to="/projects" className='navitem'>
                         Projects
+                    </NavLink>
+                    <NavLink to="/contact" className='navitem'>
+                        contact
                     </NavLink>
                 </div>
             </div>

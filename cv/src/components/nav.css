@@ -1,17 +1,26 @@
+:root {
+    --clrprimary: #17252a;
+    --clrneutral: #2b7a78;
+    --clrneutral2: #3aafa9;
+    --clrneutral3: #def2f1;
+    --clrneutral4: #feffff;
+
+    --font-family: 'Squada One', cursive;
+}
+
 .nav {
     position: fixed;
-    z-index: 2;
+    height:7.5%;
+    width:100%;
 }
 
 .navbar {
     position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
+    width: 5%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2em;
+    padding: 15px;
 }
 
 .menu-toggle {
@@ -23,10 +32,10 @@
     top: -100%;
     left: 0;
     width: 100%;
-    height: 10%;
+    height: 7.5%;
     overflow: hidden;
-    transition: all 2s cubic-bezier(0.16, 1, 0.3, 1);
-    background: orange;
+    transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+    background: var(--clrprimary);
     z-index: -1;
 }
 
@@ -36,17 +45,17 @@
     border-radius: 50%;
     transition: 0.3s ease;
     margin-right: 5vw;
-    width: 50px;
-    height: 50px;
+    width: 2.7vw;
+    height: 5vh;
     z-index: 1;
 }
 
 .hamBox:hover {
-    background: pink;
+    background: var(--clrneutral2);
 }
 
 .hamBoxOpen {
-    background: orange;
+    background: var(--clrneutral);
     z-index: 3;
 }
 
@@ -55,8 +64,8 @@
     margin: 0 auto;
     position: absolute;
     display: block;
-    width: 25px;
-    height: 2px;
+    width: 1.5vw;
+    height: 0.2vh;
     border-radius: 5px;
     background: rgba(255, 255, 255, 0.5);
     left: 0;
@@ -74,28 +83,19 @@
     bottom: 1em;
 }
 
-.lineTop .spin {
-    top: 2.35em;
-    transform: rotate(135deg);
-    background: blue;
-}
-
-.lineBottom .spin {
-    bottom: 2.35em;
-    transform: rotate(225deg);
-    background: blue;
-}
 
 .link-container {
-    margin-left: 15%;
+    width: 100%;
+    height: 100%;;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
 }
 
 .navitem {
     cursor: pointer;
-    margin-left: 10%;
-}
-
-.test {
-    font-size: 100px;
-    cursor: pointer;
+    margin: auto;
+    font-size: 20px;
+    color: #3aafa9;
+    text-decoration: none;
 }

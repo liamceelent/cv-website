@@ -1,25 +1,17 @@
-:root{
+:root {
     --clrprimary: #17252a;
     --clrneutral: #2b7a78;
     --clrneutral2: #3aafa9;
     --clrneutral3: #def2f1;
     --clrneutral4: #feffff;
-  
-    --font-family: 'Squada One', cursive;
-  }
 
-.about-container{
+    --font-family: 'Squada One', cursive;
+}
+
+.projects-container{
     height:95vh;
     width: 100%;
     display: flex; 
     flex-direction:column;
     padding-top: 7.5%;
-}
-
-.hobbies {
-    width: 100%;
-}
-
-.opening-state{
-    width:100;
 }
