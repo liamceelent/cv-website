@@ -1,0 +1,92 @@
+.nav {
+    position:fixed;
+    z-index: 2;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em;
+}
+
+.logo {
+    text-decoration: none;
+    color: black;
+    font-family: "Monument Extended";
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.menu-toggle {
+    cursor: pointer;
+}
+
+.nav-overlay {
+    position: fixed;
+    background: blue;
+    z-index: -2;
+    top: -100%;
+    left:0;
+    width: 100%;    
+    height:100%;
+    overflow: hidden;
+    padding:4em;
+    transition: all 2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.hamBox {
+    position: relative;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: 0.3s ease;
+    margin-right: 5vw;
+    width: 50px;
+    height:50px;
+}
+
+.hamBox:hover{
+    background: pink;
+}
+
+.hamBoxOpen {
+    background: orange;
+}
+
+.lineTop, .lineBottom {
+    margin:0 auto;
+    position: absolute;
+    display: block;
+    width: 25px;
+    height: 2px;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.5);
+    left:0;
+    right:0;
+    transform: rotate(0deg);
+    transition: all 0.4s;
+}
+
+.lineTop{
+    top:1em;
+}
+
+.lineBottom{
+    bottom: 1em;
+}
+
+.lineTop .spin {
+    top: 2.35em;
+    transform: rotate(135deg);
+    background: blue;
+}
+
+.lineBottom .spin {
+    bottom: 2.35em;
+    transform: rotate(225deg);
+    background: blue;
+}

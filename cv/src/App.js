@@ -11,12 +11,13 @@ import PreviousProjects from "./components/PreviousProjects";
 import Navbar from "./components/NavBar";
 import Footer from "./components/footerdiv";
 import "./App.css"
+import Nav from "./components/Nav";
 
 function App() {
   return (
     <div>
       <Router>
-          <Navbar/>
+          <Nav/>
           <Routes>
               <Route exact path="/Home" element={<Home />} />
               <Route path="/AboutMe" element={<AboutMe />} />
