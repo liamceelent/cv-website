@@ -1,12 +1,15 @@
-:root{
-  --clrprimary: #17252a;
-  --clrneutral: #2b7a78;
-  --clrneutral2: #3aafa9;
-  --clrneutral3: #def2f1;
-  --clrneutral4: #feffff;
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap');
 
-  --font-family: 'Squada One', cursive;
-}
+:root{
+    --clrprimary: #17252a;
+    --clrneutral: #2b7a78;
+    --clrneutral2: #3aafa9;
+    --clrneutral3: #def2f1;
+    --clrneutral4: #feffff;
+  
+    --font-family: 'Merriweather', serif;
+
+  }
 .footer {
     background-color: var(--clr-primary);
 

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap');
+
 :root{
     --clrprimary: #17252a;
     --clrneutral: #2b7a78;
@@ -5,7 +7,8 @@
     --clrneutral3: #def2f1;
     --clrneutral4: #feffff;
   
-    --font-family: roboto;
+    --font-family: 'Merriweather', serif;
+
   }
 
 .about-container{
@@ -41,7 +44,7 @@
 .about-title{
     text-align: center;
     font-size: 40px;
-    font-family: roboto slab;
+    font-family: var(--font-family);
 }
 
 .fishing{
@@ -59,7 +62,9 @@
 }
 
 .fishing-text{
-    width:50%
+    width:50%;
+    font-family: var(--font-family);
+    text-decoration: none;
 }
 
 .volleyball{

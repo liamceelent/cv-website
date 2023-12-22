@@ -1,13 +1,15 @@
-:root {
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap');
+
+:root{
     --clrprimary: #17252a;
     --clrneutral: #2b7a78;
     --clrneutral2: #3aafa9;
     --clrneutral3: #def2f1;
     --clrneutral4: #feffff;
+  
+    --font-family: 'Merriweather', serif;
 
-    --font-family: 'Squada One', cursive;
-}
-
+  }
 .nav {
     position: fixed;
     height:7.5%;
@@ -90,6 +92,7 @@
     align-items: center;
     display: flex;
     flex-direction: row;
+    font-family: var(--font-family);
 }
 
 .navitem {
@@ -98,4 +101,8 @@
     font-size: 20px;
     color: #3aafa9;
     text-decoration: none;
+}
+
+.navitem:hover{
+    color: #2b7a78;
 }
