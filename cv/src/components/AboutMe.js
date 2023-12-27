@@ -47,7 +47,19 @@ class AboutMe extends Component {
               Whether played professionally on a global stage or enjoyed in a local park, volleyball transcends boundaries, bringing people together in the spirit of friendly competition and shared enjoyment. The thud of the ball against forearms, the strategic positioning of players on the court, and the celebratory cheers after a well-executed play all contribute to the unique and vibrant tapestry of volleyball. It is a sport that embodies the values of teamwork, sportsmanship, and the sheer joy of the game.
             </div>
           </div>
-          <div className='family'>family</div>
+          <div className='family'>
+            <div className='family-text'>
+              Dear [Family Name],
+              Greetings to each and every member of our wonderful family! As we gather together once again, whether in person or in spirit, it is a moment to celebrate the ties that bind us and the love that defines us.
+              In the tapestry of life, each one of you contributes a unique thread, weaving a story of warmth, joy, and shared experiences. Our family is a mosaic of personalities, backgrounds, and dreams, yet united by the common bond of love and kinship.
+              As we reflect on the journey we've traveled together, let us cherish the memories that have shaped us and look forward to creating new ones in the days to come. Through the highs and lows, the laughter and tears, our family remains a source of strength, support, and unwavering love.
+              May this season bring you moments of peace, happiness, and gratitude. Let's embrace the diversity within our family and celebrate the uniqueness each member brings to our collective tapestry. Whether near or far, our hearts beat as one, connected by the unbreakable bonds of family.
+              Here's to love, laughter, and creating cherished memories together!
+              With love,
+            </div>
+            <div className='family-photo' data-aos="fade-up"></div>
+
+          </div>
         </div>
         
       </div>
