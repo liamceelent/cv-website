@@ -29,9 +29,9 @@
 
 .about-photo {
     margin: 5%;
-    width:140%;
+    width:240%;
     height:500px;
-    background-image: url("./imgages/about.jpg");
+    background-image: url("./imgages/abouts.jpg");
     background-repeat: no-repeat;
     background-position: center;
 }
